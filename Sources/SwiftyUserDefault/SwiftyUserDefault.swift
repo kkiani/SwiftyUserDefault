@@ -5,7 +5,7 @@ public struct UserDefault<T> {
     var key: String
     var defaultValue: T
     
-    init(key: String, defaultValue: T) {
+    public init(key: String, defaultValue: T) {
         self.key = key
         self.defaultValue = defaultValue
     }
